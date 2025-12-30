@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - SYMBOL
+  - {t: SYMBOL, h: toggle}
   - Y
   - U
   - I
@@ -20,8 +20,8 @@ layers:
   - D
   - F
   - G
-  - NUMBER
-  - QWERTY
+  - {t: NUMBER, h: toggle}
+  - {t: QWERTY, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - H
   - J
@@ -69,7 +69,7 @@ layers:
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - BT CLR ALL
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
@@ -105,7 +105,7 @@ layers:
   - F4
   - F5
   - F6
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F7
   - F8
   - F9
