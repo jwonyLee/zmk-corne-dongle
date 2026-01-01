@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - {t: SYMBOL, h: toggle}
+  - $$mdi:arrow-up-bold$$
   - Y
   - U
   - I
@@ -20,9 +20,9 @@ layers:
   - D
   - F
   - G
-  - {t: NUMBER, h: toggle}
+  - $$mdi:arrow-left-bold$$
   - {t: QWERTY, h: toggle}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-right-bold$$
   - H
   - J
   - K
@@ -36,7 +36,7 @@ layers:
   - V
   - B
   - $$mdi:volume-off$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-down-bold$$
   - N
   - M
   - {t: ',', s: <}
@@ -182,3 +182,45 @@ combos:
   k: '0'
 - p: [0, 1]
   k: {t: '`', s: '~'}
+- p: [37, 38]
+  k: {t: '-', s: _}
+- p: [38, 39]
+  k: {t: '=', s: +}
+- p: [0, 13, 28]
+  k: {h: '1', s: '$$mdi:bluetooth-connect$$'}
+- p: [1, 14, 29]
+  k: {h: '2', s: '$$mdi:bluetooth-connect$$'}
+- p: [2, 15, 30]
+  k: {h: '3', s: '$$mdi:bluetooth-connect$$'}
+- p: [3, 16, 31]
+  k: {h: '4', s: '$$mdi:bluetooth-connect$$'}
+- p: [4, 17, 32]
+  k: {h: '5', s: '$$mdi:bluetooth-connect$$'}
+- p: [5, 18, 33]
+  k: BT CLR ALL
+- p: [26, 27]
+  k: {t: \, s: '|'}
+- p: [20, 0, 13]
+  k: F1
+- p: [20, 1, 14]
+  k: F2
+- p: [20, 2, 15]
+  k: F3
+- p: [20, 3, 16]
+  k: F4
+- p: [20, 4, 17]
+  k: F5
+- p: [5, 18, 20]
+  k: F6
+- p: [20, 7, 22]
+  k: F7
+- p: [20, 8, 23]
+  k: F8
+- p: [20, 9, 24]
+  k: F9
+- p: [20, 10, 25]
+  k: F10
+- p: [20, 11, 26]
+  k: F11
+- p: [20, 12, 27]
+  k: F12
