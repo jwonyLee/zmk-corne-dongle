@@ -81,6 +81,56 @@
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <36 37>;
         };
+
+        one {
+            bindings = <&kp NUMBER_1>;
+            key-positions = <1 14>;
+        };
+
+        two {
+            bindings = <&kp NUMBER_2>;
+            key-positions = <2 15>;
+        };
+
+        three {
+            bindings = <&kp NUMBER_3>;
+            key-positions = <3 16>;
+        };
+
+        four {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <4 17>;
+        };
+
+        five {
+            bindings = <&kp NUMBER_5>;
+            key-positions = <5 18>;
+        };
+
+        six {
+            bindings = <&kp NUMBER_6>;
+            key-positions = <7 22>;
+        };
+
+        seven {
+            bindings = <&kp NUMBER_7>;
+            key-positions = <8 23>;
+        };
+
+        eight {
+            bindings = <&kp NUMBER_8>;
+            key-positions = <9 24>;
+        };
+
+        nine {
+            bindings = <&kp NUMBER_9>;
+            key-positions = <10 25>;
+        };
+
+        zero {
+            bindings = <&kp NUMBER_0>;
+            key-positions = <11 26>;
+        };
     };
 
     keymap {
