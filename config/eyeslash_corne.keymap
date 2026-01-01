@@ -131,6 +131,11 @@
             bindings = <&kp NUMBER_0>;
             key-positions = <11 26>;
         };
+
+        grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <0 1>;
+        };
     };
 
     keymap {
