@@ -136,6 +136,111 @@
             bindings = <&kp GRAVE>;
             key-positions = <0 1>;
         };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <37 38>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <38 39>;
+        };
+
+        bt_sel0 {
+            bindings = <&bt BT_SEL 0>;
+            key-positions = <0 13 28>;
+        };
+
+        bt_sel1 {
+            bindings = <&bt BT_SEL 1>;
+            key-positions = <1 14 29>;
+        };
+
+        bt_sel2 {
+            bindings = <&bt BT_SEL 2>;
+            key-positions = <2 15 30>;
+        };
+
+        bt_sel3 {
+            bindings = <&bt BT_SEL 3>;
+            key-positions = <3 16 31>;
+        };
+
+        bt_sel4 {
+            bindings = <&bt BT_SEL 4>;
+            key-positions = <4 17 32>;
+        };
+
+        bt_clear {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <5 18 33>;
+        };
+
+        backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <26 27>;
+        };
+
+        f1 {
+            bindings = <&kp F1>;
+            key-positions = <20 0 13>;
+        };
+
+        f2 {
+            bindings = <&kp F2>;
+            key-positions = <20 1 14>;
+        };
+
+        f3 {
+            bindings = <&kp F3>;
+            key-positions = <20 2 15>;
+        };
+
+        f4 {
+            bindings = <&kp F4>;
+            key-positions = <20 3 16>;
+        };
+
+        f5 {
+            bindings = <&kp F5>;
+            key-positions = <20 4 17>;
+        };
+
+        f6 {
+            bindings = <&kp F6>;
+            key-positions = <5 18 20>;
+        };
+
+        f7 {
+            bindings = <&kp F7>;
+            key-positions = <20 7 22>;
+        };
+
+        f8 {
+            bindings = <&kp F8>;
+            key-positions = <20 8 23>;
+        };
+
+        f9 {
+            bindings = <&kp F9>;
+            key-positions = <20 9 24>;
+        };
+
+        f10 {
+            bindings = <&kp F10>;
+            key-positions = <20 10 25>;
+        };
+
+        f11 {
+            bindings = <&kp F11>;
+            key-positions = <20 11 26>;
+        };
+
+        f12 {
+            bindings = <&kp F12>;
+            key-positions = <20 12 27>;
+        };
     };
 
     keymap {
@@ -144,10 +249,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB           &kp Q  &kp W  &kp E         &kp R             &kp T                           &to 2         &kp Y      &kp U      &kp I       &kp O    &kp P     &kp BSPC
-&kp LEFT_CONTROL  &kp A  &kp S  &kp D         &kp F             &kp G                    &to 1  &to 0  &none  &kp H      &kp J      &kp K       &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT    &kp Z  &kp X  &kp C         &kp V             &kp B      &kp C_MUTE           &none         &kp N      &kp M      &kp COMMA   &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                                &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE                                     &kp SPACE  &kp ENTER  &kp ESCAPE
+&kp TAB           &kp Q  &kp W  &kp E         &kp R             &kp T                                    &kp UP_ARROW                     &kp Y      &kp U      &kp I       &kp O    &kp P     &kp BSPC
+&kp LEFT_CONTROL  &kp A  &kp S  &kp D         &kp F             &kp G                    &kp LEFT_ARROW  &to 0           &kp RIGHT_ARROW  &kp H      &kp J      &kp K       &kp L    &kp SEMI  &kp SQT
+&kp LEFT_SHIFT    &kp Z  &kp X  &kp C         &kp V             &kp B      &kp C_MUTE                    &kp DOWN_ARROW                   &kp N      &kp M      &kp COMMA   &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                                &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE                                                                 &kp SPACE  &kp ENTER  &kp ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
